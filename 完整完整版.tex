@@ -1,0 +1,974 @@
+% !TeX program = xelatex
+\documentclass[12pt,a4paper,UTF8]{ctexart}
+\usepackage{geometry}
+\geometry{a4paper,left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage{verbatim}
+
+% 颜色定义
+\definecolor{primary}{RGB}{46,139,87}
+\definecolor{secondary}{RGB}{70,130,180}
+\definecolor{warning}{RGB}{220,20,60}
+
+% 页眉页脚
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{secondary}{\small\leftmark}}
+\fancyhead[R]{\textcolor{secondary}{\small\thepage}}
+\fancyfoot[C]{\textcolor{gray!60}{\small 黔西南自驾攻略 v1.0}}
+\setlength{\headheight}{15pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    urlcolor=secondary,
+}
+
+\title{\Huge \textbf{\textcolor{primary}{黔西南7天自驾全攻略}}}
+\author{家庭出游指南}
+\date{2026年5月}
+
+\begin{document}
+
+\begin{titlepage}
+\maketitle
+\thispagestyle{empty}
+\vfill
+\begin{center}
+\textcolor{gray}{GitHub: github.com/allankevinrichie/qianxinan-self-drive-guide}
+\end{center}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+
+\section{行程总览}
+
+\begin{verbatim}
+Day 0：各地 → 贵阳（集合取车）
+Day 1：贵阳 → 织金洞 → 盘州
+Day 2：盘州 → 乌蒙大草原（滑翔伞）→ 北盘江大桥 → 兴义
+Day 3：兴义 → 万峰林（热气球）
+Day 4：兴义 → 马岭河峡谷（漂流）→ 万峰湖
+Day 5：兴义 → 贞丰双乳峰 → 格凸河（攀岩）
+Day 6：格凸河 → 坝陵河大桥（蹦极/跳伞）→ 平塘天眼
+Day 7：平塘 → 贵阳 → 各地
+\end{verbatim}
+
+\subsection{基本信息}
+\begin{itemize}
+\item 总里程：约1500km
+\item 日均车程：3-4小时
+\item 人均预算：约5000元（基础版）
+\item 最佳时间：7-8月（避暑天堂，18-28度）
+\item 适合人数：5-8人（2台车）
+\item 难度级别：轻松休闲
+\end{itemize}
+
+\subsection{方案亮点}
+\begin{itemize}
+\item ✓ 路线完美：全程环线，几乎没有回头路，每天车程3-4小时不累
+\item ✓ 体验分层：每个刺激项目都有分流方案，没有人需要干等
+\item ✓ 景点顶级：6个国家地理级别的景观
+\item ✓ 游客极少：大部分时候都是包场体验
+\item ✓ 避暑天堂：7-8月全国最热的时候，贵州只有18-28度
+\end{itemize}
+
+\newpage
+
+\section{每日详细行程}
+
+\subsection{Day 0：各地 → 贵阳}
+\begin{itemize}
+\item 10:00-14:00 各地航班陆续到达贵阳龙洞堡机场
+\item 14:00-15:00 机场租车点集合，取车，验车
+\item 15:00-16:00 开车去酒店，办理入住
+\item 18:00-20:00 晚餐：老凯俚酸汤鱼（省府店）
+\item 20:00-21:00 车队准备会，分发手台
+\end{itemize}
+
+\subsubsection{租车建议}
+\begin{itemize}
+\item 平台：一嗨/神州机场店
+\item 车型：5-6人选1台7座MPV+1台轿车，7-8人选2台SUV
+\item 保险：一定要买全额保险，三者险至少200万
+\item 取车：拍好所有划痕、轮胎、玻璃的照片视频
+\end{itemize}
+
+\subsection{Day 1：贵阳 → 织金洞 → 盘州}
+\begin{itemize}
+\item 08:00 酒店早餐，退房出发
+\item 08:00-10:00 贵阳→织金洞（150km，2小时）
+\item 10:00-13:30 织金洞游览（3.5小时）
+\item 织金洞有"黄山归来不看岳，织金洞外无洞天"的美誉
+\item 游览顺序：进洞→银雨树→霸王盔→织女梭→出口
+\item 洞内16度，带薄外套
+\item 不要用手摸钟乳石，摸了就不长了
+\item 13:30-14:30 织金县吃午饭
+\item 14:30-17:00 织金→盘州（180km，2.5小时）
+\item 18:00 盘州入住，晚餐
+\end{itemize}
+
+\subsubsection{织金洞避坑提示}
+\begin{itemize}
+\item 不要跟团，旅行团只走一半就催你出来
+\item 不要在门口花钱请导游，进去跟着别的团听就行
+\end{itemize}
+
+\subsection{Day 2：盘州 → 乌蒙大草原 → 北盘江大桥 → 兴义}
+\begin{itemize}
+\item 07:30 出发，赶在云海散之前到
+\item 07:30-08:30 盘州→乌蒙大草原（50km，1小时）
+\item 08:30-12:00 乌蒙大草原游玩
+\item 海拔2800米，温度比山下低10度，带厚外套
+\item 不要开车压草坪，会被牧民罚款500元，不讲价
+\item 不要在景区门口吃烤全羊，贵且不好吃
+\item 景区里面的农家乐吃的不贵
+\item 12:00-13:00 景区内吃午饭
+\item 13:00-15:30 乌蒙→北盘江大桥观景台（100km，1.5小时）
+\item 15:30-16:00 北盘江大桥拍照打卡
+\item 世界第一高桥，565米，相当于200层楼
+\item 导航"北盘江大桥观景台"，不要导北盘江景区
+\item 免费，停车10元，拍照10分钟足够
+\item 16:00-18:30 观景台→兴义（180km，2.5小时）
+\item 19:00 兴义入住，晚餐
+\end{itemize}
+
+\subsection{Day 3：万峰林全天}
+\begin{itemize}
+\item 08:30 出发去万峰林
+\item 09:00-11:30 万峰林景区观光车，山上看全景
+\item 11:30-12:30 将军峰蛋炒饭一条街吃午饭
+\item 12:30-17:30 下午活动：
+\item A组：坐热气球，180元/人，30分钟，空中俯瞰万峰林
+\item B组：租电动车在峰林骑行，30元/天
+\item 推荐路线：将军峰→下纳灰→中纳灰→上纳灰
+\item 18:00 返回市区
+\end{itemize}
+
+\subsubsection{万峰林避坑提示}
+\begin{itemize}
+\item 不要进任何收费的"村寨景点"，都是坑
+\item 不要在景区门口吃蛋炒饭，往里走到将军峰再吃，便宜又好吃
+\end{itemize}
+
+\subsection{Day 4：马岭河峡谷 + 万峰湖}
+\begin{itemize}
+\item 08:30 出发去马岭河
+\item 09:00-12:00 马岭河峡谷，分组行动：
+\item A组（漂流）：239元/人，22公里，2.5小时
+\item B组（徒步）：走峡谷徒步栈道，3公里平路，看十几条瀑布
+\item 两组在漂流终点汇合
+\item 漂流注意：穿凉鞋/溯溪鞋，不要穿拖鞋（会冲跑），带换的衣服
+\item 不要坐"观光电梯"，40元，自己走下去10分钟，纯坑
+\item 12:00-13:00 峡谷门口吃午饭
+\item 13:00-16:30 万峰湖坐船/逛吉隆堡
+\item 17:00 返回兴义市区
+\end{itemize}
+
+\subsection{Day 5：兴义 → 贞丰 → 格凸河}
+\begin{itemize}
+\item 09:00 退房出发
+\item 09:00-11:30 兴义→贞丰（120km，1.5小时）
+\item 11:30-12:00 双乳峰路边打卡，不用进景区
+\item 12:00-13:00 贞丰县吃午饭
+\item 13:00-15:30 贞丰→格凸河（130km，2.5小时）
+\item 15:30-18:30 格凸河游玩，分组行动：
+\item A组（攀岩）：200-300元/人，初级体验线，教练带
+\item B组（不攀岩）：16:00看蜘蛛人表演（每天下午4点一场，别错过），坐船游大河苗寨，穿洞徒步看神光（下午2-4点最佳）
+\item 不要上午去格凸河，上午看不到神光，白来
+\item 不要住景区里面的酒店，贵且条件差，住镇上5分钟车程
+\item 19:00 格凸河镇入住
+\end{itemize}
+
+\subsection{Day 6：格凸河 → 坝陵河大桥 → 平塘天眼}
+\begin{itemize}
+\item 08:30 出发
+\item 08:30-11:00 格凸河→坝陵河大桥（150km，2.5小时）
+\item 11:00-14:00 坝陵河大桥，分组行动：
+\item A组（玩刺激）：蹦极2000元/人（370米国内最高），高空秋千1000元/人，跳伞3000元/人
+\item B组（不玩）：走大桥内部观光栈道，100元/人，370米高俯瞰峡谷，围观别人蹦极也很刺激
+\item 导航"坝陵河大桥研学基地"，不要导"坝陵河景区"，那是假地方
+\item 蹦极提前一天预约
+\item 14:00-15:00 大桥附近吃午饭
+\item 15:00-17:00 坝陵河→平塘天眼（120km，2小时）
+\item 17:00-19:00 天眼参观
+\item 所有电子设备必须寄存，包括手机、相机、智能手表
+\item 可以带胶卷相机，景区有卖，200元一个
+\item 观景台爬789级台阶，慢慢爬不累
+\item 观景台的照片可以买，20元一张
+\item 19:30 天文小镇入住
+\end{itemize}
+
+\subsection{Day 7：平塘 → 贵阳 → 各地}
+\begin{itemize}
+\item 09:00 出发回贵阳
+\item 09:00-11:30 平塘→贵阳（150km，2.5小时）
+\item 12:00-13:30 贵阳午餐，采购特产
+\item 14:00 机场还车，返程
+\end{itemize}
+
+\subsubsection{贵州特产推荐}
+\begin{itemize}
+\item 茅台酒（机场免税店可能有，看运气）
+\item 都匀毛尖（茶叶，中国十大名茶）
+\item 刺梨干（酸甜好吃，富含VC，送女生喜欢）
+\item 老干妈（便宜，送人不心疼）
+\end{itemize}
+
+\newpage
+
+\section{刺激项目分流方案}
+
+团队出行最忌讳一部分人玩得high，另一部分人在旁边傻等。
+本方案中所有刺激项目都设计了分流体验，两边同时进行，互不等待。
+
+\subsection{马岭河峡谷漂流}
+\begin{itemize}
+\item 刺激程度：⭐⭐⭐⭐ 贵州最刺激的漂流之一
+\item 长度：22公里，漂2.5小时
+\item 落差：300多米，几十个险滩
+\item 价格：239元/人
+\item 最佳时间：7-8月雨季水量大，最刺激
+\item 年龄限制：14岁以上可以漂（初中生刚好）
+\end{itemize}
+
+\subsubsection{完美分流方案}
+\begin{itemize}
+\item 玩刺激的人：去漂流起点，2.5小时漂完全程
+\item 不玩漂流的人：走马岭河峡谷徒步栈道（和漂流路线平行！）
+\item 全程3公里平路栈道，不累
+\item 可以从上面看下面漂流的人，偶尔还能被水泼到
+\item 看十几条瀑布，拍照
+\item 最后在漂流终点汇合
+\end{itemize}
+
+\subsubsection{漂流注意事项}
+\begin{itemize}
+\item 穿凉鞋/溯溪鞋，不要穿拖鞋（会冲跑）
+\item 戴眼镜的用绳子绑好
+\item 不要带手机，或者装防水袋
+\item 带换的衣服，会全身湿透
+\end{itemize}
+
+\subsection{坝陵河大桥蹦极/跳伞}
+\begin{itemize}
+\item 蹦极：370米高，国内最高商业蹦极，2000元/人
+\item 高空秋千：100米摆幅，比蹦极温和一点，1000元/人
+\item 跳伞：从大桥上跳，370米，3000元/人
+\item 观光栈道：大桥内部玻璃栈道，100元/人
+\end{itemize}
+
+\subsubsection{完美分流方案}
+\begin{itemize}
+\item 玩刺激的人：蹦极/高空秋千/跳伞，1-2小时搞定
+\item 不玩的人：
+\item 走大桥内部观光栈道，370米高俯瞰坝陵河峡谷
+\item 看别人蹦极，围观体验也很刺激
+\item 有咖啡馆可以坐着休息看风景
+\item 旁边还有坝陵河大桥纪念馆可以逛
+\end{itemize}
+
+\subsubsection{注意}
+就在兴义回贵阳的路上，完全顺路，不用绕路。
+提前一天预约。
+
+\subsection{乌蒙大草原滑翔伞}
+\begin{itemize}
+\item 飞行高度：起飞场2800米，相对高度300米
+\item 飞行时间：10-15分钟
+\item 价格：680元/人，含GoPro视频
+\item 风景：空中俯瞰整个乌蒙大草原，看大风车
+\end{itemize}
+
+\subsubsection{分流方案}
+\begin{itemize}
+\item 玩的人：飞滑翔伞，1小时搞定
+\item 不玩的人：
+\item 在乌蒙大草原天池旁边逛
+\item 看滑翔伞起飞降落
+\item 骑马、喂羊、拍拍照
+\item 旁边有奶茶店可以坐
+\end{itemize}
+
+就在乌蒙大草原景区里面，完全顺路，不用绕路。
+
+\subsection{格凸河攀岩体验}
+\begin{itemize}
+\item 内容：户外自然岩壁攀岩，有教练带
+\item 难度：初级体验线，普通人也能爬
+\item 价格：200-300元/人
+\item 高度：20-30米
+\end{itemize}
+
+\subsubsection{分流方案}
+\begin{itemize}
+\item 玩的人：攀岩体验，1-2小时
+\item 不玩的人：
+\item 逛穿上洞、通天洞
+\item 看蜘蛛人表演
+\item 坐船游河
+\item 旁边就是景区步道，逛起来很舒服
+\end{itemize}
+
+\subsection{万峰林热气球}
+\begin{itemize}
+\item 高度：100-200米
+\item 飞行时间：30分钟
+\item 价格：180元/人（系留飞，不飘走）
+\item 风景：空中俯瞰万峰林全景
+\end{itemize}
+
+\subsubsection{分流方案}
+\begin{itemize}
+\item 玩的人：坐热气球
+\item 不玩的人：
+\item 在下面拍热气球起飞，特别出片
+\item 租电动车先去骑，回头在终点汇合
+\item 在旁边咖啡馆坐着看
+\end{itemize}
+
+\newpage
+
+\section{住宿推荐}
+
+\subsection{住宿总览}
+\begin{table}[h]
+\centering
+\begin{tabular}{llcl}
+\toprule
+日期 & 酒店 & 价格/间 & 说明 \\
+\midrule
+Day 0 & 维也纳酒店（贵阳龙洞堡机场店） & 200 & 离机场近，免费接送 \\
+Day 1 & 盘州国际花园酒店 & 250 & 盘州最好酒店之一 \\
+Day 2-4 & 兴义富康国际酒店 & 280 & \textbf{连住3晚！不搬家} \\
+Day 5 & 格凸河镇上酒店 & 200 & 比景区便宜一半 \\
+Day 6 & 平塘天文小镇酒店 & 250 & 离天眼最近 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{详细推荐}
+
+\subsubsection{Day 0：贵阳}
+\textbf{维也纳酒店（贵阳龙洞堡机场店）}
+\begin{itemize}
+\item 价格：约200元/间
+\item 位置：距离机场5分钟车程
+\item 理由：有免费机场接送，停车方便，第二天上高速不堵车，连锁酒店干净卫生有保障
+\end{itemize}
+
+备选：贵阳铂尔曼大酒店（火车站附近，想吃宵夜的选这个）
+
+\subsubsection{Day 1：盘州}
+\textbf{盘州国际花园酒店}
+\begin{itemize}
+\item 价格：约250元/间
+\item 位置：盘州市区
+\item 理由：盘州最好的酒店之一，四星标准，停车场大，免费停车，房间大，设施新，早餐丰富，第二天去乌蒙大草原近
+\end{itemize}
+
+备选：盘州恒宇大酒店（便宜50块，也不错）
+
+\subsubsection{Day 2-4：兴义 ⭐ 连住3晚！}
+\textbf{兴义富康国际酒店}
+\begin{itemize}
+\item 价格：约280元/间
+\item 位置：兴义市中心
+\item 理由：
+\item 兴义最好的酒店，五星标准
+\item 停车场超大，免费停车
+\item 房间大，床舒服
+\item 早餐非常好
+\item 去万峰林15分钟，去马岭河10分钟
+\item 楼下就是商圈，吃饭购物方便
+\item \textbf{连住3晚不搬家，太舒服了！}
+\end{itemize}
+
+备选：兴义国龙雅阁大酒店（便宜30块）
+
+\subsubsection{Day 5：格凸河}
+\textbf{格凸河镇上酒店}
+\begin{itemize}
+\item 价格：约200元/间
+\item 推荐：格凸河大酒店
+\item 理由：不要住景区里面的酒店，贵且条件差，镇上开车到景区门口只需要5分钟，镇上吃饭方便，便宜，选择多，丰俭由人
+\end{itemize}
+
+\subsubsection{Day 6：平塘}
+\textbf{平塘天文小镇酒店}
+\begin{itemize}
+\item 价格：约250元/间
+\item 推荐：平塘中国天眼迎宾馆
+\item 理由：离天眼最近的酒店，10分钟车程，天文主题，体验感好，条件不错，干净卫生，第二天不用早起赶时间
+\end{itemize}
+
+备选：平塘县城酒店，便宜50块，但要多开30分钟车
+
+\subsection{订房Tips}
+\begin{itemize}
+\item 暑期提前2周订，不然涨价甚至没房
+\item 三个平台比价：携程、美团、飞猪，同一个酒店价格可能差几十
+\item 会员价：如果有酒店集团会员，用官方APP订可能更便宜，还有积分
+\item 取消政策：选可以免费取消的，万一行程变了可以退
+\item 停车：所有推荐的酒店都有免费停车场，自驾放心
+\end{itemize}
+
+\newpage
+
+\section{预算明细}
+
+\subsection{基础版人均预算（不玩高消费刺激项目）}
+\begin{table}[h]
+\centering
+\begin{tabular}{lc}
+\toprule
+项目 & 费用（元） \\
+\midrule
+往返大交通 & 1500 \\
+租车+油费+过路费 & 600 \\
+住宿（6晚） & 700 \\
+餐饮（7天） & 700 \\
+门票 & 800 \\
+其他杂项 & 700 \\
+\midrule
+\textbf{总计} & \textbf{5000} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+按5人2台车计算。
+
+\subsection{刺激项目可选费用}
+\begin{table}[h]
+\centering
+\begin{tabular}{lc}
+\toprule
+项目 & 费用（元/人） \\
+\midrule
+马岭河漂流 & 239 \\
+乌蒙滑翔伞 & 680 \\
+万峰林热气球 & 180 \\
+格凸河攀岩 & 250 \\
+坝陵河观光栈道 & 100 \\
+坝陵河高空秋千 & 1000 \\
+坝陵河蹦极 & 2000 \\
+坝陵河跳伞 & 3000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{不同体验等级的总预算}
+\begin{itemize}
+\item 纯观光版：只看风景，不玩刺激项目，约4500元/人
+\item 标准版：漂流+观光栈道，约5000元/人
+\item 豪华体验版：漂流+滑翔伞+热气球+攀岩+观光栈道，约6000元/人
+\item 全套刺激版：所有刺激项目都玩，包括蹦极，约8500元/人
+\end{itemize}
+
+\subsection{详细费用分解}
+
+\subsubsection{大交通（1500元/人）}
+上海/南京飞贵阳往返机票，暑期7-8月价格，提前2周订大概1200-1800元。如果能抢到特价票，可能1000以内，看运气。
+
+\subsubsection{租车费用（人均600元）}
+按5人2台车计算：
+\begin{itemize}
+\item 7天租车费：2500元
+\item 油费（1500km）：1200元
+\item 过路费：500元
+\item 总计4200元，5人均摊840元/人
+\end{itemize}
+
+如果是6-8人，人均约600-700元。
+
+\subsubsection{住宿（人均700元）}
+6晚，2人拼房，人均350-500元，看人数。
+
+\subsubsection{餐饮（700元/人）}
+每天100元，7天700元。贵州物价低，这个标准吃得很好了。
+早餐：酒店含早，免费
+午餐：30元/人
+晚餐：70元/人
+
+\subsubsection{门票（800元/人）}
+\begin{itemize}
+\item 织金洞：110+20=130
+\item 乌蒙大草原：60
+\item 万峰林：80+50=130
+\item 马岭河峡谷：80
+\item 格凸河：150
+\item 平塘天眼：140
+\item 万峰湖船票：80
+\item 其他小景点：30
+\item 总计：800元
+\end{itemize}
+
+\subsection{省钱技巧}
+\begin{enumerate}
+\item 机票：周二周三订票最便宜，早晚班机比中午便宜300-500元，飞重庆转高铁可能更便宜
+\item 住宿：提前2周订，比当天订便宜30%，三个平台比价
+\item 门票：美团/大众点评提前买，比现场便宜，学生带学生证，半价
+\item 吃饭：不要在景区门口吃，去市区当地人吃的馆子，便宜又好吃，美团搜"当地美食"，看评分4.5以上的
+\end{enumerate}
+
+\newpage
+
+\section{行前准备清单}
+
+\subsection{车队装备}
+\begin{itemize}
+\item 对讲机（手台）2台，山区没手机信号，车队通信用
+\item 车载充电器2个，每车一个
+\item 手机支架2个，每车一个，导航用
+\item 点烟器USB扩展
+\item 拖车绳1根，备用
+\item 搭电线1根，备用
+\item 充气泵1个，备用
+\end{itemize}
+
+\subsection{衣物类}
+\begin{itemize}
+\item 速干衣裤：漂流玩水用，湿了干得快
+\item 凉鞋/溯溪鞋：\textbf{必带！不要穿拖鞋漂流，一定会冲跑}
+\item 日常换洗衣物：多带两套，湿了能换
+\item 薄外套：洞里16度，山上20度
+\item 厚外套/冲锋衣：乌蒙大草原15度，早晚冷
+\item 雨衣：比雨伞实用，腾出手拍照
+\item 防水鞋套：雨天或者踩水用
+\item 帽子：防晒
+\item 墨镜：高原紫外线强
+\end{itemize}
+
+\subsection{药品类}
+\begin{itemize}
+\item 肠胃药：吃辣必备！
+\item 感冒药：山里温差大，容易着凉
+\item 创可贴：玩水容易划伤
+\item 碘伏/酒精棉：伤口消毒
+\item 晕车药：盘山路有人可能晕车
+\item 退烧药：备用
+\item 驱蚊液：贵州蚊虫多，特别是水边
+\item 高原药：乌蒙2800米，一般不会高反，有备无患
+\item 个人常用药：有慢性病的带好自己的药
+\end{itemize}
+
+\subsection{洗护日用类}
+\begin{itemize}
+\item 防晒霜：高原紫外线强，SPF50+
+\item 晒后修复：芦荟胶之类的
+\item 洗面奶、牙刷牙膏
+\item 毛巾：用自己的干净
+\item 洗发水、沐浴露
+\item 纸巾、湿纸巾：多带点
+\item 垃圾袋：车上用，文明旅游
+\item 雨伞：有雨衣也可以带
+\end{itemize}
+
+\subsection{电子设备}
+\begin{itemize}
+\item 手机：不用说了
+\item 充电器：每人一个
+\item 充电宝：20000mAh以内可以带上飞机
+\item 防水袋：装手机，漂流玩水用
+\item 相机：想拍照的带
+\item 相机防水壳：漂流玩水用
+\item GoPro/运动相机：漂流、滑翔伞拍照神器
+\item 耳机：路上听音乐
+\end{itemize}
+
+\subsection{证件和钱}
+\begin{itemize}
+\item 身份证：坐飞机、住酒店都要
+\item 驾驶证：开车的人都带
+\item 银行卡：储蓄卡+信用卡
+\item 少量现金：有些地方不能手机支付，1000块够了
+\item 学生证：景点门票半价
+\item 教师证/军官证：有些景点有优惠
+\end{itemize}
+
+\subsection{零食和水}
+\begin{itemize}
+\item 矿泉水：车上备一箱
+\item 能量棒/巧克力：补充能量
+\item 零食：路上吃
+\item 水果：补充维生素
+\end{itemize}
+
+\subsection{其他杂项}
+\begin{itemize}
+\item 背包：每天出门背，不用拉行李箱
+\item 双肩包：逛景点背
+\item 防水背包：漂流玩水用
+\item 塑料袋：装湿衣服
+\item 剃须刀：男士必备
+\item 化妆护肤品：女士必备
+\end{itemize}
+
+\subsection{出发前检查清单}
+\begin{itemize}
+\item 机票订了吗？
+\item 租车订了吗？
+\item 酒店订了吗？
+\item 刺激项目预约了吗？
+\item 旅游保险买了吗？
+\item 身份证、驾驶证带了吗？
+\item 充电宝带了吗？
+\item 厚外套带了吗？
+\item 凉鞋/溯溪鞋带了吗？
+\item 雨衣带了吗？
+\item 肠胃药带了吗？
+\end{itemize}
+
+\subsection{特别提醒三遍！}
+\begin{center}
+\Large \textcolor{red}{\textbf{带厚外套！带厚外套！带厚外套！}}
+\end{center}
+\vspace{0.3cm}
+\begin{center}
+\Large \textcolor{red}{\textbf{带凉鞋！带凉鞋！带凉鞋！}}
+\end{center}
+\vspace{0.3cm}
+\begin{center}
+\Large \textcolor{red}{\textbf{带雨衣！带雨衣！带雨衣！}}
+\end{center}
+
+贵州7-8月是雨季，但都是阵雨，下下停停，不用担心。贵州夏天真的不热，25度左右，晚上睡觉要盖被子，一定要带外套。紫外线真的很强，防晒霜、帽子、墨镜缺一不可。
+
+\newpage
+
+\section{车队自驾规则}
+
+4个老司机，2台车，5-8个人的车队出行指南。
+
+\subsection{基本规则}
+\begin{enumerate}
+\item \textbf{头车尾车制度}：1号车当头车带路，2号车当尾车收尾，中间车不要超过头车，不要落后尾车太远，头车不要开太快，照顾尾车
+\item \textbf{手台使用规则}：每15分钟，头车尾车报一次位置，拐弯、过隧道、进服务区，提前30秒喊，变道、超车，提前喊，遇到测速、事故、修路，立即喊，没事不要闲聊，保持频道畅通
+\item \textbf{编队行驶规则}：高速上保持100-200米车距，贵州高速限速110，不要超速，隧道限速80，进隧道提前减速、开灯，不要在隧道内超车，盘山路不要超车，弯道鸣笛靠右行
+\item \textbf{统一行动规则}：加油统一行动，不要单独加油，休息统一行动，每2小时进一次服务区，吃饭统一行动，不要单独离队，离队必须跟头车说，说明去哪里，多久回来
+\item \textbf{休息换人制度}：每2小时进服务区休息一次，10分钟，每次休息换人开车，同一个人不要连续开车超过3小时，困了累了立刻说，不要硬撑
+\end{enumerate}
+
+\subsection{贵州路况特点}
+\begin{enumerate}
+\item 高速多隧道多桥梁，贵州是"桥梁博物馆"，高速桥隧比很高，进隧道提前减速，开灯，出隧道注意横风
+\item 限速严，测速多，高速一般限速110，隧道限速80，区间测速很多，不要抱有侥幸，有些地方限速突然从110降到80，注意看牌
+\item 多雨多雾，7-8月是雨季，经常下雨，雨天减速，保持车距，山区容易起雾，开雾灯、双闪，能见度低于50米，就近进服务区等
+\item 盘山路多，兴义到贞丰、格凸河那段，弯多路窄，弯道鸣笛靠右行，不要占道行驶，不要在弯道超车
+\end{enumerate}
+
+\subsection{应急预案}
+\begin{enumerate}
+\item \textbf{两车走散了怎么办}：不要慌，不要在高速上停车，不要乱掉头，不要倒车，手台呼叫，约定下一个服务区集合，如果手台也联系不上，直接去今天的目的地酒店汇合
+\item \textbf{车辆故障怎么办}：先把车开到应急车道，所有人下车，撤到护栏外面，车后150米放三角警示牌，打租车行客服电话，叫救援，打高速救援电话：12122
+\item \textbf{发生事故怎么办}：先看人有没有事，人没事最重要，所有人撤到护栏外面，打122报警，打保险电话，拍照：前后45度，碰撞位置，刹车印，路况，不要在路中间协商，不要吵架
+\item \textbf{有人晕车怎么办}：提前吃晕车药，开窗通风，找最近的服务区停车休息，不要玩手机，看前方
+\item \textbf{遇到暴雨/大雾怎么办}：减速到60以下，开雾灯、双闪，不要超车，不要变道，就近找服务区或者出口下高速等雨停
+\end{enumerate}
+
+\subsection{停车注意事项}
+\subsubsection{高速停车}
+非紧急情况不要在高速上停车，必须停车的话，停应急车道，人撤到护栏外，150米外放三角牌。
+
+\subsubsection{景区停车}
+停正规停车场，不要停路边，带好随身物品，锁好车门，贵重物品不要放在车里能看到的地方，记好停车位置，景区停车场很大容易找不到。
+
+\subsubsection{市区停车}
+酒店都有免费停车场，放心，吃饭停饭店门口，或者附近商场停车场，贵州停车不贵，一般5-10块一次。
+
+\subsection{加油注意事项}
+贵州都是中石油中石化，正规，看到油表剩一半就可以加油了，不要等亮灯，山区有些加油站间隔远，加油统一行动，两辆车一起加，可以办一张油卡，或者用支付宝微信加油，贵州汽油价格和全国差不多，不贵。
+
+\subsection{老司机提醒}
+\begin{enumerate}
+\item 贵州高速看起来好开，其实很容易疲劳，风景太好，容易走神，而且桥隧多，精神一直紧绷
+\item 不要开夜车，山区高速晚上大货车多，而且容易起雾，很危险
+\item 不要开斗气车，出来玩最重要的是开心，安全第一
+\item 喝酒不开车，开车不喝酒，贵州查酒驾很严，而且酒店都可以叫代驾
+\item 手机导航开静音或者小声，不要一直响，影响开车的人
+\end{enumerate}
+
+\subsection{重要电话}
+\begin{itemize}
+\item 高速救援：12122
+\item 交通事故：122
+\item 急救：120
+\item 租车行客服
+\item 保险公司
+\item 贵州高速交警微博：实时路况
+\end{itemize}
+
+最后一条：出来玩，安全第一，开心第二，其他都是浮云。
+
+\newpage
+
+\section{景点避坑指南}
+
+每个景点的坑都给你列出来了，照着避开就行。
+
+\subsection{织金洞}
+❌ 不要做的事：
+\begin{itemize}
+\item 不要跟团，旅行团只走一半就催你出来，精华都看不到
+\item 不要在门口花钱请导游，进去跟着别的团听就行
+\item 不要穿太少，洞里16度，带薄外套
+\item 不要用手摸钟乳石，摸了就不长了，而且很滑容易摔
+\item 不要在洞里跑，地面很滑
+\end{itemize}
+
+✅ 正确打开方式：
+自己慢慢逛，走完全程3.5小时，从进洞开始走，一直走到出口，不用走回头路。
+
+\subsection{乌蒙大草原}
+❌ 不要做的事：
+\begin{itemize}
+\item 不要开车压草坪，会被牧民罚款500块，不讲价
+\item 不要在景区门口吃烤全羊，贵且不好吃
+\item 不要中午去，晒，而且云海散了
+\item 不要穿太少，海拔2800米，比山下低10度
+\item 不要乱跑，有些地方是沼泽，看着平其实很深
+\end{itemize}
+
+✅ 正确打开方式：
+早上去，7-8点，大概率能看到云海。开车进去，景区公路随便开。逛天池，看大风车，骑马。景区里面的农家乐吃的不贵。
+
+\subsection{万峰林}
+❌ 不要做的事：
+\begin{itemize}
+\item 不要进任何收费的"村寨景点"，都是坑，100块门票进去啥也没有
+\item 不要在景区门口吃蛋炒饭，往里走到将军峰再吃，便宜又好吃
+\item 不要租自行车，山路多，骑电动车舒服，30块钱骑一下午
+\item 不要相信门口"10块钱带你逃票"的，都是骗人的
+\item 不要中午去，晒，下午4点以后光线最好
+\end{itemize}
+
+✅ 正确打开方式：
+上午坐景区观光车从山上看全景，下午租电动车在山下峰林骑行，路线：将军峰→下纳灰→中纳灰→上纳灰。逛布依族村寨，免费。
+
+\subsection{马岭河峡谷}
+❌ 不要做的事：
+\begin{itemize}
+\item 漂流不要带任何不能湿的东西，手机钱包放车上或者装防水袋
+\item 不要穿拖鞋漂流，一定会冲跑的，穿带后跟的凉鞋
+\item 不要坐"观光电梯"，40块钱，自己走下去10分钟，纯坑
+\item 不要下雨天去漂流，水太大不安全
+\item 不要在峡谷里游泳，水很深很急
+\end{itemize}
+
+✅ 正确打开方式：
+分组行动，A组漂流，B组徒步栈道，最后在终点汇合。
+
+\subsection{格凸河}
+❌ 不要做的事：
+\begin{itemize}
+\item 不要上午去，上午看不到神光，白来
+\item 不要错过下午4点的蜘蛛人表演，每天只有一场
+\item 不要住景区里面的酒店，贵且条件差，住镇上5分钟车程
+\item 不要相信门口"逃票"的，查得很严
+\item 不要穿拖鞋，有些路不好走
+\end{itemize}
+
+✅ 正确打开方式：
+下午2点以后到，先坐船游大河苗寨，4点看蜘蛛人表演，去穿上洞看神光，晚上住镇上。
+
+\subsection{坝陵河大桥}
+❌ 不要做的事：
+\begin{itemize}
+\item 不要导航"坝陵河景区"，那是个假地方，离真正的桥还有10公里
+\item 不要当天去才预约蹦极，大概率排不上
+\item 不要在高速上停车拍照，扣6分罚款200，还危险
+\item 不要爬上护栏拍照，很危险
+\item 恐高的不要勉强走观光栈道，370米高，真的很高
+\end{itemize}
+
+✅ 正确打开方式：
+导航"坝陵河大桥研学基地"，玩蹦极的提前一天预约，不玩蹦极的走观光栈道，100块钱值回票价。
+
+\subsection{平塘天眼}
+❌ 不要做的事：
+\begin{itemize}
+\item 不要抱侥幸心理带手机，查得很严，过安检门，查到必须寄存
+\item 不要穿拖鞋爬台阶，789级，累了还容易摔
+\item 不要相信门口"不用排队"的黄牛，都是骗人的
+\item 不要在天文馆买纪念品，贵且质量差，淘宝同款便宜一半
+\end{itemize}
+
+✅ 正确打开方式：
+所有电子设备寄存，别抱侥幸，可以带胶卷相机，景区有卖，200块一个，慢慢爬789级台阶，不累，观景台的照片可以买，20块一张，留个纪念。
+
+\subsection{北盘江大桥观景台}
+❌ 不要做的事：
+\begin{itemize}
+\item 不要导航"北盘江景区"，两个地方差50公里
+\item 不要在高速上停车拍照，扣6分罚款200
+\item 不要爬上护栏拍照，很危险
+\item 不用专门绕路去，乌蒙到兴义顺路经过就行
+\end{itemize}
+
+✅ 正确打开方式：
+导航"北盘江大桥观景台"，免费，停车10块，拍照10分钟足够，不用久留。
+
+\subsection{贞丰双乳峰}
+❌ 不要做的事：
+\begin{itemize}
+\item 不要进景区，100多块门票，进去和路边看的一样
+\item 不要相信"最佳观景台"，都是收费的，路边看一样
+\item 不要久留，10分钟足够，没啥可逛的
+\end{itemize}
+
+✅ 正确打开方式：
+路边找个安全的地方停车，拍个照就走，10分钟足够。
+
+\subsection{通用避坑技巧}
+\begin{enumerate}
+\item 所有说"带你逃票"的都是骗子，贵州景区查票都很严
+\item 景区门口的饭不要吃，又贵又不好吃，多走5公里到市区吃
+\item 不要买景区门口的纪念品，都是义乌产的，淘宝更便宜
+\item 不要在景区门口住宿，比市区贵一倍，条件还差
+\item 不要相信"今天不开放，我带你走小路"的，都是骗钱的
+\item 自驾停车停正规停车场，不要停路边，会被贴条或者被划
+\end{enumerate}
+
+记住一句话：出来玩，被骗点钱是小事，影响心情是大事。
+
+\newpage
+
+\section{实用信息}
+
+\subsection{必备APP}
+\begin{itemize}
+\item 导航：高德地图（贵州数据比百度全，路况更新快）
+\item 导航备用：百度地图，两个可以对比路线
+\item 住宿：携程、美团、飞猪，三个平台比价，同一个酒店价格可能差几十
+\item 门票：美团、大众点评，比现场买便宜，还能看评价
+\item 吃饭：大众点评，找当地美食，看评分4.5以上的
+\item 路况：贵州高速交警微博，实时路况，事故、修路、封路信息
+\item 天气：墨迹天气，山区天气预报，贵州十里不同天
+\item 机票：飞猪、携程，比价用
+\end{itemize}
+
+\subsection{重要电话}
+\begin{itemize}
+\item 12122：高速救援
+\item 122：交通事故报警
+\item 120：急救
+\item 110：报警
+\item 119：火警
+\item 一嗨租车客服：400-888-6608
+\item 神州租车客服：400-616-6666
+\end{itemize}
+
+\subsection{出发前2周要做的事}
+\begin{enumerate}
+\item 确定出发日期
+\item 订往返机票
+\item 确定人数，订车（暑期要提前订，不然没车）
+\item 所有刺激项目提前预约：
+  \begin{itemize}
+  \item 坝陵河蹦极/跳伞：坝陵河大桥官方公众号
+  \item 乌蒙滑翔伞：乌蒙大草原滑翔伞基地
+  \item 马岭河漂流：马岭河峡谷官方公众号
+  \end{itemize}
+\item 订好所有酒店（暑期房源紧张）
+\item 买旅游意外险
+\item 车队建群，分工：谁当头车，谁当尾车，谁管钱，谁订房
+\end{enumerate}
+
+\subsection{贵州旅游最佳时间}
+\begin{itemize}
+\item 5-6月：20-28度，雨季开始，人少，便宜
+\item 7-8月：18-28度，雨季，⭐⭐⭐⭐⭐ 最佳时间，避暑天堂，学生放假
+\item 9-10月：15-25度，雨季结束，⭐⭐⭐⭐⭐ 最佳时间，人少，天气好，秋天更美
+\item 11-2月：5-15度，冷，冬天冷，乌蒙可能下雪
+\item 3-4月：10-20度，春天，春天花开了，人少
+\end{itemize}
+
+\subsection{贵州美食推荐}
+
+\subsubsection{贵阳}
+\begin{itemize}
+\item 酸汤鱼：老凯俚酸汤鱼
+\item 丝娃娃：飞山街随便找一家
+\item 肠旺面：老贵阳肠旺面
+\item 烙锅：大同街烙锅
+\end{itemize}
+
+\subsubsection{兴义}
+\begin{itemize}
+\item 蛋炒饭：万峰林将军峰
+\item 刷把头：郑记刷把头
+\item 鸡肉汤圆：邹记鸡肉汤圆
+\item 羊肉粉：兴义羊肉粉
+\end{itemize}
+
+\subsubsection{盘州}
+\begin{itemize}
+\item 牛肉粉：盘州牛肉粉
+\item 燃面：盘县燃面
+\end{itemize}
+
+\subsection{贵州特产}
+\begin{itemize}
+\item 茅台酒：这个不用说了，机场免税店可能有，看运气
+\item 都匀毛尖：茶叶，中国十大名茶
+\item 刺梨干：酸甜好吃，富含VC，送女生喜欢
+\item 老干妈：便宜，送人不心疼
+\item 贵州辣椒面：烙锅辣椒面，回去自己做烙锅
+\item 波波糖：镇宁特产，甜的
+\item 苗银饰品：景区的太贵，市区买便宜的
+\end{itemize}
+
+\subsection{贵州气候特点}
+
+\subsubsection{7-8月天气}
+\begin{itemize}
+\item 平均气温：18-28度
+\item 雨季，但是阵雨为主，下下停停，不会连下几天
+\item 晚上睡觉要盖被子，不用开空调
+\item 十里不同天，这边下雨那边晴
+\end{itemize}
+
+注意：
+紫外线很强，防晒霜、帽子、墨镜缺一不可，早晚温差大，带薄外套，山区多雨，带雨衣。
+
+\subsection{民族风俗注意事项}
+\begin{enumerate}
+\item 苗族、布依族都很热情，不要怕
+\item 进苗寨不要踩门槛
+\item 不要摸小孩头，当地人忌讳
+\item 对着老人拍照前先问一下
+\item 买东西问清楚价格再买，不要乱开价
+\end{enumerate}
+
+\subsection{实用小技巧}
+\begin{enumerate}
+\item 贵州菜很辣，不能吃辣的提前说"微辣"或者"不辣"
+\item 贵州"微辣" = 其他地方"中辣"，做好心理准备
+\item 饭前先问清楚价格再点，景区吃饭先问多少钱一斤
+\item 打车用滴滴，不要打黑车
+\item 买水买东西用普通话就行，贵州人基本都会说
+\item 不要在景区买银饰，假的多，贵
+\item 不要相信"老乡"，套近乎卖东西的都是骗子
+\end{enumerate}
+
+\vspace{2cm}
+\begin{center}
+\Huge \textcolor{green}{\textbf{祝大家玩得开心！🚗🏔️🌊}}
+\end{center}
+
+\vfill
+\begin{center}
+\textcolor{gray}{GitHub: github.com/allankevinrichie/qianxinan-self-drive-guide}
+\end{center}
+
+\end{document}
