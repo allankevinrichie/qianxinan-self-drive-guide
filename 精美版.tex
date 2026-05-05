@@ -1,0 +1,141 @@
+% !TeX program = xelatex
+\documentclass[12pt,a4paper,UTF8]{ctexart}
+\usepackage{geometry}
+\geometry{a4paper,left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+% 颜色定义
+\definecolor{primary}{RGB}{46,139,87}
+\definecolor{secondary}{RGB}{70,130,180}
+
+% 页眉页脚
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textcolor{secondary}{\small\leftmark}}
+\fancyhead[R]{\textcolor{secondary}{\small\thepage}}
+\fancyfoot[C]{\textcolor{gray!60}{\small 黔西南自驾攻略 v1.0}}
+\setlength{\headheight}{15pt}
+
+\hypersetup{colorlinks=true,linkcolor=primary}
+
+\begin{document}
+
+% 封面
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+\Huge \textbf{\textcolor{primary}{黔西南7天自驾全攻略}}
+\\[0.5cm]
+\Large \textcolor{gray}{家庭出游 · 朋友组队 · 初中生友好}
+\\[2cm]
+
+\begin{tabular}{ll}
+\toprule
+总里程 & 约1500km \\
+日均车程 & 3-4小时 \\
+人均预算 & 约5000元 \\
+最佳时间 & 7-8月 \\
+适合人数 & 5-8人（2台车） \\
+版本 & v1.0 \\
+更新时间 & 2026年5月 \\
+\bottomrule
+\end{tabular}
+
+\\[2cm]
+
+\textbf{方案亮点：}
+\\
+✓ 路线完美，全程环线
+\\
+✓ 刺激项目分流，没人需要等待
+\\
+✓ 6个国家地理级别的景观
+\\
+✓ 游客极少，包场体验
+\\
+✓ 避暑天堂，18-28度
+
+\vfill
+\textcolor{gray}{\small GitHub: github.com/allankevinrichie/qianxinan-self-drive-guide}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{行程总览}
+\begin{verbatim}
+Day 0：各地 → 贵阳
+Day 1：贵阳 → 织金洞 → 盘州
+Day 2：盘州 → 乌蒙大草原 → 北盘江大桥 → 兴义
+Day 3：兴义 → 万峰林
+Day 4：兴义 → 马岭河峡谷 → 万峰湖
+Day 5：兴义 → 贞丰 → 格凸河
+Day 6：格凸河 → 坝陵河大桥 → 平塘天眼
+Day 7：平塘 → 贵阳 → 各地
+\end{verbatim}
+
+\section{每日详细行程}
+\subsection{Day 0：各地 → 贵阳}
+机场取车，晚上车队准备会。
+
+\subsection{Day 1：贵阳 → 织金洞 → 盘州}
+织金洞游览3.5小时，洞内16度带薄外套。
+
+\subsection{Day 2：盘州 → 乌蒙大草原 → 兴义}
+乌蒙大草原海拔2800米，北盘江大桥世界第一高桥565米。
+
+\section{刺激项目分流方案}
+\subsection{马岭河峡谷漂流}
+239元/人，不玩的人走徒步栈道，终点汇合。
+
+\subsection{坝陵河大桥蹦极}
+2000元/人，370米国内最高。
+
+\section{住宿推荐}
+\begin{table}[h]
+\centering
+\begin{tabular}{llc}
+\toprule
+日期 & 酒店 & 价格/间 \\
+\midrule
+Day 0 & 维也纳机场店 & 200 \\
+Day 1 & 盘州国际花园 & 250 \\
+Day 2-4 & 兴义富康国际 & 280 \\
+Day 5 & 格凸河镇 & 200 \\
+Day 6 & 平塘天文小镇 & 250 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{预算明细}
+人均约5000元。
+
+\section{行前准备清单}
+\begin{itemize}
+\item 凉鞋/溯溪鞋（必带！）
+\item 薄外套+厚外套
+\item 雨衣
+\item 肠胃药
+\end{itemize}
+
+\section{车队自驾规则}
+头车尾车制度，每2小时休息换人。
+
+\section{景点避坑指南}
+织金洞不要跟团，乌蒙不要压草坪罚款500。
+
+\section{实用信息}
+导航用高德地图，贵州菜很辣。
+
+\vspace{3cm}
+\begin{center}
+\Huge \textcolor{primary}{祝大家玩得开心！}
+\end{center}
+
+\end{document}
